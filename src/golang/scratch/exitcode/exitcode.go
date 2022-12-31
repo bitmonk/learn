@@ -10,7 +10,6 @@ func getExitCode(name string, arg ...string) int {
 	cmd := exec.Command(name, arg...)
 	_ = cmd.Run()
 	return cmd.ProcessState.ExitCode()
-	panic("something wrong!")
 }
 
 func main() {
