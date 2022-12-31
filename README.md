@@ -2,10 +2,11 @@
 learnings
 
 # c
-c/ : cprogramming.com tutorial
+src/c/
+ - cprogramming.com/ cprogramming.com tutorial
 
 # golang
-golang/
+src/golang/
  - scratch/ : quick scratch projects
  - tutorial/ : official tutorial
  - with-tests/ : learn go with tests
