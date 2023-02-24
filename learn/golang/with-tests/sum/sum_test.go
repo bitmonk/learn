@@ -1,4 +1,4 @@
-package arrayslice
+package sum
 
 import "reflect"
 import "testing"
