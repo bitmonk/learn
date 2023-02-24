@@ -1,4 +1,4 @@
-package iteration
+package repeat
 
 import "fmt"
 import "testing"

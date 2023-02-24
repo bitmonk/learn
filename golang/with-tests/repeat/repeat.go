@@ -1,4 +1,4 @@
-package iteration
+package repeat
 
 // Repeat takes a character and repeats it 5 times.
 func Repeat(character string, count int) (repeated string) {
