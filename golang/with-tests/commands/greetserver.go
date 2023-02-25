@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"io"
 	"log"
 	"net/http"
-	"greet"
+	"golang/with-tests/greet"
 )
 
 func MyGreeterHandler(w http.ResponseWriter, r *http.Request) {
