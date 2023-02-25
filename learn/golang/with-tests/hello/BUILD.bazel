@@ -10,6 +10,12 @@ go_library(
 go_test(
     name = "hello-test",
     srcs = ["hello_test.go"],
+    embed = [":hello"],
     visibility = ["//visibility:public"],
+)
+
+go_test(
+    name = "hello_test",
+    srcs = ["hello_test.go"],
     embed = [":hello"],
 )
