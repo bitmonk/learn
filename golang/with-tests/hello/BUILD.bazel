@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
 go_library(
     name = "hello",
     srcs = ["hello.go"],
-    importpath = "golang/with-tests/hello",
+    importpath = "learn/golang/with-tests/hello",
     visibility = ["//visibility:public"],
 )
 
