@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/bitmonk/learn/golang/with-tests/hello"
+	"golang/with-tests/hello"
 )
 
 func main() {

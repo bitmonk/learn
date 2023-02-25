@@ -1,15 +1,15 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 
-go_library(
-    name = "commands_lib",
-    srcs = ["main.go"],
-    importpath = "learn/golang/with-tests/commands",
-    visibility = ["//visibility:private"],
-    deps = ["@com_github_bitmonk_learn//golang/with-tests/hello:go_default_library"],
+go_binary(
+    name = "hello",
+    srcs = ["hello.go"],
+    deps = ["//golang/with-tests/hello:hello"],
+    visibility = ["//visibility:public"],
 )
 
 go_binary(
-    name = "commands",
-    embed = [":commands_lib"],
+    name = "greetserver",
+    srcs = ["greetserver.go"],
+    deps = ["//golang/with-tests/greet:greet"],
     visibility = ["//visibility:public"],
 )
