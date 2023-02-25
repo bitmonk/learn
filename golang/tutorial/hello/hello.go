@@ -1,10 +1,10 @@
-package hello
+package main
 
 import (
 	"fmt"
 	"log"
 
-	"greetings"
+	"learn/golang/tutorial/greetings"
 )
 
 func main() {
