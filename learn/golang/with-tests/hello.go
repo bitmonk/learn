@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"golang/with-tests/hello"
+	"learn/golang/with-tests/hello"
 )
 
 func main() {

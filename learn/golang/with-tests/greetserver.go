@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
-	"golang/with-tests/greet"
+	"learn/golang/with-tests/greet"
 )
 
 func MyGreeterHandler(w http.ResponseWriter, r *http.Request) {
